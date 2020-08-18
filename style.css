@@ -28,8 +28,12 @@ body {
 
 img {
   max-width: 100%;
+  transition: all 1s;
 }
 
+img:hover{
+  transform: scale(1.1);
+}
 .wrapper {
   display: grid;
   grid-gap: 20px;
